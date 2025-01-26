@@ -1,6 +1,5 @@
 <div align="center">
-  <img width = "25%" src="https://eunomatix.com/img/logo-meerkat-llminspect-black-small.png"><br>
-  <img src="resources/splash.png" width="256"/>
+  <img src="resources/llminspect.png" width="328"/>
 </div>
 
 <p align="center">
@@ -9,19 +8,22 @@
   </a>
 </p>
 
-
-## What is LLMInspect
-With the rise of GenAI, most of the enterprises want to use LLMs to enhance their productivity, by enabling their employees to grant them access to public LLM providers (like ChatGPT, Gemini, etc). Though this definitely improves the overall productivity of the employees in their routine operations, however this capability posses several threats to the enterprise as mployees are sharing the intellectual property of the organization with these public entities, and thus opening a new avenue of data leakage threats.
+## LLMInspect - An AI Gateway
+With the rise of GenAI, most of the enterprises want to use LLMs to enhance their productivity, by enabling their employees to grant them access to public LLM providers (like **ChatGPT**, **Gemini**, **Mistral**, etc). Though this definitely improves the overall productivity of the employees in their routine operations, however this capability posses several threats to the enterprise as mployees are sharing the intellectual property of the organization with these public entities, and thus opening a new avenue of data leakage threats.
 
 **LLMInspect** GenAI Gateway is a one stop solution to all those problems, as it massively enhances the enterprise AI experience and cyber safety. From one application users can interact with different public and private LLM models, and control what is being sent to these models. Using **LLMInspect**, SOC Analysts can also view the employee GenAI usage and discover any LLM related Security Threats. **LLMInspect** also brings very interesting capabilities to its users, e.g. rate limit the GenAI queries or even re-route external LLM queries to enterprise's private LLMs.
 
 **LLMInspect** is a comprehensive system for managing large language models and their related services. The `eunomatix/llminspect` repository contains submodules for various microservices required for this product, alongside a `docker-compose.yml` file and an example override file.
 
-## LLMInspect Architecture
-LLMinspect is designed from the ground up keeping in mind the requirements of modern enterprise deployments. Based on the principles of service-oriented architecture LLMinspect can be comfortably deployed both in the cloud and on prem. LLMinspect enables clients from various modalities to interact with public LLM providers in a safe and secure manner such as chat clients using our flexible web interface which allows a user to fully exercise various features of LLMs for example conversational AI image generation, code generation and retrieval augmented generation. Regardless of the source all LLM interactions are guarded and logged by LLMInspect. 
+<div align="center">
+  <img src="resources/splash.png" width="314"/>
+</div>
 
-Once the requests reach LLMInspect , LLMinspect masks all personally identifiable information so that such information will not leave the enterprise premises in parallel our sentiment analysis service detects and logs the sentiment of the text. During this process detailed logs, chat text , images as well as transaction metadata are kept for analysis in the InspectDB service. SIEM dashboards provide by LLMinspect enable SOC analysts to analyze this information. Finally, the masked text is sent to the upstream LLM of user’s choice.    
-![image](https://github.com/user-attachments/assets/e79da9dd-167f-4095-a3c1-8945756423f5)
+## LLMInspect Architecture
+LLMinspect is designed from the ground up keeping in mind the requirements of modern enterprise deployments. Based on the principles of **service-oriented architecture**, LLMinspect can be comfortably deployed both in the cloud and on-prem. LLMinspect enables clients from various modalities to interact with public LLM providers in a safe and secure manner such as chat clients using our flexible web interface which allows a user to fully exercise various features of LLMs for example conversational AI image generation, code generation and retrieval augmented generation. Regardless of the source all LLM interactions are guarded and logged by LLMInspect. 
+
+Once the requests reach LLMInspect , LLMinspect masks all personally identifiable information (PII) so that such information will not leave the enterprise premises in parallel our sentiment analysis service detects and logs the sentiment of the text. During this process detailed logs, chat text, images as well as transaction metadata are kept for analysis in the InspectDB service. 
+
 
 LLMinspect provides dedicated desktop and mobile clients for easy interaction with LLMs and freedom from the browsers.
 ![image](https://github.com/user-attachments/assets/ca9a1b43-e2fd-4932-ad0a-82c371eb7038)
@@ -31,7 +33,7 @@ Llminspect operated without the need for clunky web proxies, enables end-users t
 
 It’s a ChatGPT Type user-friendly interface and easy adaptable by users.You can select different on-perm and public LLMs of your own choice.
 ![image](https://github.com/user-attachments/assets/53e7e9dd-ab55-4c6c-91c8-cc1c2e86880f)
-
+SIEM dashboards provide by LLMinspect enable SOC analysts to analyze this information. Finally, the masked text is sent to the upstream LLM of user’s choice.    
 
 ![image](https://github.com/user-attachments/assets/70611f4d-3f3c-43b9-b455-809a6e63380a)
 

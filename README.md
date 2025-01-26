@@ -1,4 +1,4 @@
-![Alt text](https://eunomatix.com/img/logo-meerkat-llminspect-black.png)
+![Alt text](https://eunomatix.com/img/logo-meerkat-llminspect-black-small.png)
 
 ## What is LLMInspect
 With the rise of GenAI, most of the enterprises want to use LLMs to enhance their productivity, by enabling their employees to grant them access to public LLM providers (like ChatGPT, Gemini, etc). Though this definitely improves the overall productivity of the employees in their routine operations, however this capability posses several threats to the enterprise as mployees are sharing the intellectual property of the organization with these public entities, and thus opening a new avenue of data leakage threats.

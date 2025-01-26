@@ -1,10 +1,7 @@
 <div align="center">
-  <img width = "25%" src="https://eunomatix.com/img/logo-meerkat-llminspect-black-small.png">
+  <img width = "25%" src="https://eunomatix.com/img/logo-meerkat-llminspect-black-small.png"><br>
+  <img src="resources/splash.png" width="256"/>
 </div>
-![Alt text](./resources/splash.png?raw=true "Title")
-
-![screenshot](resources/splash.png)
-<img src="resources/splash.png" width="128"/>
 
 <p align="center">
   <a href="https://skillicons.dev">

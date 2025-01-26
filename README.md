@@ -1,10 +1,10 @@
 <div align="center">
-  <img width = "33%" src="https://eunomatix.com/img/logo-meerkat-llminspect-black-small.png">
+  <img width = "25%" src="https://eunomatix.com/img/logo-meerkat-llminspect-black-small.png">
 </div>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=sass,docker,aws,gcp,openshift,kubernetes,redhat,ubuntu,windows" />
+    <img src="https://skillicons.dev/icons?i=sass,docker,aws,gcp,openshift,kubernetes,redhat,ubuntu,windows&theme=light" />
   </a>
 </p>
 

@@ -14,7 +14,7 @@ With the rise of GenAI, most of the enterprises want to use LLMs to enhance thei
 **LLMInspect** GenAI Gateway from <a href="https://eunomatix.com">**EUNOMATIX**</a> is a one stop solution to all those problems, as it massively enhances the enterprise AI experience and cyber safety. From one application users can interact with different public and private LLM models, and control what is being sent to these models. Using **LLMInspect**, SOC Analysts can also view the employee GenAI usage and discover any LLM related Security Threats. **LLMInspect** also brings very interesting capabilities to its users, e.g. rate limit the GenAI queries or even re-route external LLM queries to enterprise's private LLMs.
 
 <div align="center">
-  <img src="resources/splash.png" width="314"/>
+  <img src="resources/aisplash.png" width="314"/>
 </div>
 
 ## Architecture

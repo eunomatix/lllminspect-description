@@ -1,7 +1,5 @@
- ![Alt text](https://eunomatix.com/img/logo-meerkat-llminspect-black-small.png)
-
 <div align="center">
-  <img width = "100%" src="https://eunomatix.com/img/logo-meerkat-llminspect-black-small.png">
+  <img width = "33%" src="https://eunomatix.com/img/logo-meerkat-llminspect-black-small.png">
 </div>
 
 ## What is LLMInspect

@@ -3,6 +3,8 @@
 </div>
 ![Alt text](./resources/splash.png?raw=true "Title")
 
+![screenshot](resources/splash.png)
+<img src="resources/splash.png" width="128"/>
 
 <p align="center">
   <a href="https://skillicons.dev">
